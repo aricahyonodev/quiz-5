@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+header.header{
+    background-color: #4f4d53;
+    height: 48px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hero */
+section.hero{
+    background-image: url("assets/img/img_hero.jpg");
+    color: #fff;
+    height: 65vh;
+    background-position: right;
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* About Us */
+section.about-us{
+    margin: 0;
+    text-align: center;
+}
+section.about-us .about-us-teams-member{
+      display: flex;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+section.about-us .about-us-heading{
+    color: #e8be02;
+    font-size: 64px;
+    font-weight: 900;
+}
+section.about-us .about-us-description{
+    color: #4f4d53;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section.about-us .about-us-team-members-info{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Footer */
+footer.footer{
+    background-color: #4f4d53;
+    border-top: 12px solid #e8be02;
+    height: 320px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer.footer .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    color: #fff;
 }
